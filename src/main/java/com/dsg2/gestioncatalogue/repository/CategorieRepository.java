@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface CategorieRepository extends JpaRepository<Categorie,Long> {
-    //Derived query
-    public List<Produit> findByNomContains(String mc);
+
+
 }
 
 
